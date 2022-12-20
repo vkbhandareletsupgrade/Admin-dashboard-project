@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="logo-container">
+                <img src="./myimg.jpg" alt="logo">
+                <b>Teachers Panel</b>
+            </div>
+            <hr>
+            <nav>
+                <ul class="sidebar-navlist">
+                    <li class="sidebar-navlinks"><i class="fa fa-user"></i><a href=""> Profile</a></li>
+                    <li class="sidebar-navlinks"><i class="fa fa-bars"></i><a href=""> Dashboard</a></li>
+                    <li class="sidebar-navlinks"><i class="fa fa-chart-bar"></i><a href=""> States</a></li>
+                    <li class="sidebar-navlinks"><i class="fa fa-book"></i><a href=""> Courses</a></li>
+                    <li class="sidebar-navlinks"><i class="fa fa-pen-fancy"></i><a href="">Notes</a></li>
+                    <li class="sidebar-navlinks"><i class="fa fa-book-medical"></i><a href=""> Exam</a></li>
+                    <li class="sidebar-navlinks"><i class="fa fa-pen"></i><a href=""> Practice</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <section class="main-container">
+                <div class="logo-nav">
+                    <h3>
+                        Admin Dashboard
+                    </h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-bell fa-2x"></i>
+                        </li>
+                        <!-- <li><a href="">Help</a></li> -->
+                    </ul>
+                </div>
+            </section>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa fa-bell fa-3x" aria-hidden="true"></i>
+                    </div>
+                    <div class="card-info">
+                        <b>Notifications</b>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa fa-book fa-3x" aria-hidden="true"></i>
+                    </div>
+                    <div class="card-info">
+                        <b>Courses</b>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa fa-chart-bar fa-3x" aria-hidden="true"></i>
+                    </div>
+                    <div class="card-info">
+                        <b>Stats</b>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- <div class="cards-container second">
+                <div class="card second-card">
+                    <h3>Card One </h3>
+                </div>
+                <div class="card second-card">
+                    <h3>Card Two </h3>
+                </div>
+                <div class="card second-card">
+                    <h3>Card Three </h3>
+                </div>
+                <div class="card second-card">
+                    <h3>Card four </h3>
+                </div>
+                
+            </div> -->
+
+            <section class="table-section">
+                <table>
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>Student Name</th>
+                        <th>Batch Name</th>
+                        <th>Student Data</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Shekhar</td>
+                        <td>Batch19</td>
+                        <td>Click</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Pratik</td>
+                        <td>Batch19</td>
+                        <td>Click</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Pramod</td>
+                        <td>Batch10</td>
+                        <td>Click</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Anand</td>
+                        <td>Batch8</td>
+                        <td>Click</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <section class="right-panel">
+            <h3><b>Recent Highlights</b></h3>
+            <hr>
+            <div class="right-panel-container">
+                
+                <div class="post">
+                    <div class="profile-pic">
+                        <img src="./one.jpg" alt="one">
+                    </div>
+                    <div class="post-details">
+                        <b>Anuj Batra</b><p>just posted a blog.click to view post</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="profile-pic">
+                        <img src="./two.jpg" alt="one">
+                    </div>
+                    <div class="post-details">
+                        <b>Ramya Patel</b><p>starts a new journey towards content creation.</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="profile-pic">
+                        <img src="./three.jpg" alt="one">
+                    </div>
+                    <div class="post-details">
+                        <b>Vinod Mehra</b><p>just live <span>10 min</span> ago. Go to profile section</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="button">
+                    <button class="btn">Stories</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./all.min.js"></script>
+</body>
+</html>
